@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br>
+<br>
+
+	<title>Pizza statistics</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js">
+	</script>
+
+
+
+<div id="background">
+    <img src="1.png" class="stretch" alt="" />
+</div>
+
+<body>
+
+	<h1>PIZZA CONSUMPTION
+
+</h1>
+
+<h2>
+  Norwegians eat the most pizzas in the world. </h2>
+
+
+
+
+<canvas id="myChart" width="200" height="200"></canvas>
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Norway", "Germany", "Sweden"],
+        datasets: [{
+            label: 'Kg/Pers/Year',
+            data: [5.4, 2.1, 1.1,],
+             backgroundColor: [
+                '#ff704d',
+                '#ffad33',
+                '#ffff80',
+                
+            ],
+            borderColor: [
+                '#ff704d',
+                '#ff944d',
+                '#ffff80',
+                
+                
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2> Types of Pizzas Norwegians eat</h2>
+<br>
+<br>
+<br>
+
+
+<canvas id="myChart2" width="200" height="200"></canvas>
+<script>
+var ctx = document.getElementById("myChart2");
+var myChart2 = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: ["Frozen Pizzas", "Homemade", "Restaurants"],
+        datasets: [{
+            label: 'Percentage',
+            data: [44, 30, 26,],
+            backgroundColor: [
+                '#ff704d',
+                '#ffad33',
+                '#ffff80',
+                
+            ],
+            borderColor: [
+                '#ff704d',
+                '#ff944d',
+                '#ffff80',
+                
+            ],
+            borderWidth: 1
+        }]
+    },
+ 
+});
+</script>
+
+
+<br>
+<br>
+<br>
+<h2> Types of Pizzas Swedes eat</h2>
+<br>
+<br>
+
+
+<canvas id="myChart3" width="200" height="200"></canvas>
+<script>
+var ctx = document.getElementById("myChart3");
+var myChart3 = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: ["Frozen Pizzas", "Homemade", "Restaurants"],
+        datasets: [{
+            label: 'Percentage',
+            data: [5,5,90,],
+               backgroundColor: [
+                '#ff704d',
+                '#ffad33',
+                '#ffff80',
+                
+            ],
+            borderColor: [
+                '#ff704d',
+                '#ff944d',
+                '#ffff80',
+                
+            ],
+            borderWidth: 1
+        }]
+    },
+ 
+});
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="grandiosa.png"></img>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img style="width="640" height="360" src="oslo.png"></img>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<iframe style="border: 10px solid orange;" width="640" height="360" src="http://giphy.com/gifs/xT0BKCTVvHtg5u68X6/html5" frameborder="0" allowfullscreen></iframe>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<iframe style="border: 10px solid orange;" width="640" height="360" src="https://www.youtube.com/embed/Sob9o5a189c" frameborder="0" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</head>
+</body>
+</html>
+</link>
+

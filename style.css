@@ -39,7 +39,23 @@ h2 {
   text-align: center;
 }
 
+a:link, a:visited {
 
+  font-family: Courier New; sans-serif;
+  font-size:20px;
+    background-color: white;
+    color: orange;
+    border: 10px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+  position: relative;
+    background-color: orange;
+    color: white;}
 
 #myChart{max-width: 350px;
 		margin:auto;

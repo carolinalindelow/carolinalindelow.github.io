@@ -1,0 +1,23 @@
+body{
+	background-image:url("pizza.jpg");
+	margin-top:200px;
+}
+
+h1{
+	text-align:center;
+	font-size: 30px;
+	font-family: Courier New; sans-serif
+
+}
+
+.sektion{
+	background-color:white;
+	display: inline-block;
+	width:33%;
+	text-align:center;
+}
+
+span.highlight{
+	background-color:yellow;
+}
+

@@ -57,17 +57,32 @@ a:hover, a:active {
     background-color: orange;
     color: white;}
 
+img.animated-gif{
+  width: 50px;
+  height: auto;
+}
+
+.sektion{
+  float: left;
+  width:50%;
+  text-align:center;
+}
+
 #myChart{max-width: 350px;
 		margin:auto;
 max-height: 350px;}
 
-#myChart2{max-width: 400px;
-	margin:auto;
-max-height: 400px}
+#myChart2{max-width: 27%;
+	margin-right:0px;
+  margin-left: 250px;
+float:left;}
 
-#myChart3{max-width: 400px;
-	margin:auto;
-max-height: 400px}
+#myChart3{max-width: 27%;
+  margin-right:250px;
+  margin-left: 0px;
+float:right;}
+
+
 
 
 
